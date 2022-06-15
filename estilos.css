@@ -1,5 +1,5 @@
 :root{
-  --color1: #045B82;
+  --color1: #1498a4;
   --color2: rgba(23, 180, 83, 0.877);
   --color3: rgba(11,194,211, 0.623);
   --fondo: #F4ECDE;
@@ -216,14 +216,22 @@ nav .enlaces a:hover{
 }
 
 .content-card{
-  width: 31%;
+  width: 30%;
   box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
   overflow: hidden;
-  height:400px;
+  height:500px;
 }
 
 .people{
-  height: 80%;
+  height: 85%;
+  width: 100%;
+}
+
+
+.people img{
+  /* height: 70%;
+  width: 30%; */
+  object-fit: cover;
 }
 
 .content-card img{
@@ -233,7 +241,7 @@ nav .enlaces a:hover{
 }
 
 .texto-team{
-  height: 20%;
+  height: 15%;
   width: 100%;
   padding: var(--espacios) 0;
 }
@@ -249,6 +257,9 @@ nav .enlaces a:hover{
   justify-content: space-between;
   margin: auto;
   flex-wrap: wrap;
+}
+.servicios img{
+  width: 30%;
 }
 .caja-servicios{
   width: 30%;
