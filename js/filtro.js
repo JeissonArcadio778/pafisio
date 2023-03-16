@@ -32,14 +32,14 @@ $(function () {
     $('#enlace-equipo').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: equipo -100
+            scrollTop: equipo -50
         },600);
     });
 
     $('#enlace-servicio').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: servicio -100
+            scrollTop: servicio -10
         },600);
     });
 
@@ -53,7 +53,7 @@ $(function () {
     $('#enlace-contacto').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: contacto -100
+            scrollTop: contacto -10
         },600);
     });
 });
