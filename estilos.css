@@ -12,7 +12,7 @@
 .textos-pafisio {
   font-family: "Quicksand";
 
-  font-weight: 1000;
+  font-weight: 900;
 
   font-style: normal;
 }
@@ -465,6 +465,10 @@ footer {
 .marca-logo img {
   margin-bottom: 50px;
   width: 100%;
+}
+
+#principal-logo {
+  color: #7ACC72;
 }
 
 .iconos {

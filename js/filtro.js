@@ -46,7 +46,7 @@ $(function () {
     $('#enlace-trabajo').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: trabajo -100
+            scrollTop: trabajo -70
         },600);
     });
 
